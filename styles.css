@@ -18,7 +18,7 @@ nav ul
 }
 
 li {
-    margin-right:200px;
+    margin-right:135px;
 }
 
 nav a:hover {
@@ -36,5 +36,13 @@ nav a
 
 p {
     color;
+}
+
+.playlist {
+    background-color: red;
+    width:57%;
+    margin:auto;
+    height:8%;
+
 }
 
