@@ -8,23 +8,35 @@
 <body>
   <div class="header_site_wrapper">
     <nav>
-      <ul>
+        <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Music</a></li>
         <li><a href="#">Movies</a></li>
         <li><a href="#">Events</a></li>
         <li><a href="#">Archives</a></li>
         <li><a href="#">
-          <button onclick="change_link_playlist()">
-          Make your own Playlist</button>
-        
-
+            <button onclick="change_link_playlist()">
+            Make your own Playlist</button>
         </a></li>
-      </ul>
+        </ul>
     </nav>
-  </div>
+</div>
+<div class="playlist">
+   <h2> My playlist</h2>
+    <div class="row_add_song_add_button">
+        <input type="text" id="myInput" placeholder="write your song">
+        <div class="addBouton" onclick="todoList()">Add</div>
+    </div>
+</div>
 
-
+<ul id="container_list">
+    <li>Madonna 5 girls</li>
+    <li>U2 better than nothing</li>
+    <!--<li class="added_song">SUM41 let's have a dance</li>-->
+    <li>Maroon 5 You can't have me</li>
+    <li>Daft Punk Aerodynamic</li>
+    <li>Prodigy Fire</li>
+</ul>
 
 </body>
 </html>
