@@ -5,6 +5,7 @@ body{
 .header_site_wrapper {
     background-color: black;
     padding:14px;
+    margin-bottom:80px;
 }
 
 
@@ -38,11 +39,58 @@ p {
     color;
 }
 
+.row_add_song_add_button{
+    display:flex;
+    margin-left:30px;
+}
+
 .playlist {
     background-color: red;
     width:57%;
     margin:auto;
-    height:8%;
+    height:15%;
+   
 
 }
 
+.addBouton {
+    width:10%;
+    background-color: grey;
+    float:left;
+    text-align:center;
+    font-size:16px;
+    cursor:pointer;
+    padding:10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width:75%;
+    
+}
+
+.title_header{
+    width:50%;
+
+}
+
+.container_list {
+    margin-left:219px;
+    color:red;
+    /*cursor:pointer;*/
+    list-style-type: none;
+}
+
+ul li {
+    cursor:pointer;
+}
+
+.added_song {
+    background: #888;
+    color:white;
+    text-decoration: line-through;
+    width:73%;
+}
